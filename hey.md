@@ -34,4 +34,4 @@ int main()
 ```
 #### strlen()
     This function directly prints the length of a string, excluding the null terminator whereas std::size() operator prints the size of an array.
-## HOWEVER, AVOID USING C-STYLE STRINGS, USE Use STD::STRING OR STD::STRING_VIEW INSTEAD OF C-STYLE STRINGS CUZ THEY'RE MORE EASY,FLEXIBLE AND SAFE.
+### HOWEVER, AVOID USING C-STYLE STRINGS, USE Use STD::STRING OR STD::STRING_VIEW INSTEAD OF C-STYLE STRINGS CUZ THEY'RE MORE EASY,FLEXIBLE AND SAFE.
