@@ -35,3 +35,37 @@ int main()
 #### strlen()
     This function directly prints the length of a string, excluding the null terminator whereas std::size() operator prints the size of an array.
 ### HOWEVER, AVOID USING C-STYLE STRINGS, USE Use STD::STRING OR STD::STRING_VIEW INSTEAD OF C-STYLE STRINGS CUZ THEY'RE MORE EASY,FLEXIBLE AND SAFE.
+## STD::STRING MANUPULATIONS
+### Concatenation
+    
+    string firstName = "John ";
+    string lastName = "Doe";
+    string fullName = firstName + lastName;
+    cout << fullName;
+    
+    or appending
+    
+    string firstName = "John ";
+    string lastName = "Doe";
+    string fullName = firstName.append(lastName);
+    cout << fullName;
+### Numbers and Strings
+    You can't add number to a string, an error occurs
+### String Length
+To get the string length, use the length() function.
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "The length of the txt string is: " << txt.length();
+size() can be used too  
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "The length of the txt string is: " << txt.size();
+### Accesing strings
+    Strings are accessible by referring to their index number inside square brackets []
+    
+    string myString = "Hello";
+    cout << myString[0];
+    // Outputs H
+    
+    string myString = "Hello";
+    myString[0] = 'J';
+    cout << myString;
+    // Outputs Jello instead of Hello
