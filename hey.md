@@ -125,4 +125,7 @@ C++ does not copy an array when an array is passed into a function. When passing
 Best practice
 
 Favor the pointer syntax (*) over the array syntax ([]) for array function parameters because if you favor syntax (*) then you will know that youre working with pointers instead of an array.
+    
+## A little tip about converting chars to int:
+    so when static casting, it will output the ASCII code of char, to get the real result u want u should substract the '0' from the ASCII code, this way you get the real result :)))
 ## Pointer Arithmetic and Array Indexing
